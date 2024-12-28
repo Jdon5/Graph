@@ -13,9 +13,4 @@ public class Node {
     public String toString(){
         return "Node["+obj+"]";
     }
-    public static void main(String[] args) {
-        Node node = new Node("A");
-
-        System.out.println(node);
-    }
 }
