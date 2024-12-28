@@ -18,4 +18,9 @@ public class Edge {
     public Node[] getNodes(){
         return new Node[]{firstNode,secondNode};
     }
+
+    @Override
+    public String toString(){
+        return firstNode+ " - "+secondNode; 
+    }
 }

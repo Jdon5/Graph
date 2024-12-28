@@ -18,6 +18,8 @@ public class Main {
         Node[] nodeArr = {nodeA,nodeB,nodeC};
         Edge[] edgeArr = {edge1,edge2};
 
+        System.out.println(edge1);
+
         Graph graph = new Graph(Arrays.asList(nodeArr),Arrays.asList(edgeArr));
         System.out.println(graph);
     }

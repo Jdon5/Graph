@@ -35,7 +35,7 @@ public class Graph {
 
     @Override
     public String toString(){
-        return "Nodes:"+nodes;
+        return "Nodes: "+nodes+"\nEgdes: "+edges;
     }
 
 }
